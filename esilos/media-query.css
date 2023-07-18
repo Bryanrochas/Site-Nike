@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width:768px) and (max-width: 992px) {
+    section#section {
+        width: 80vw;
+    }
+    div#nikebs > #nikesb{
+        display: none;
+    }
+
+  
+    section#section > div#image {
+        background: url(../jordan.jpg);
+        float: left;
+        position: absolute;
+        left: -60px;
+        width: 60%;
+        height: 100%;
+    }
+    div#button2 > #button {
+        position: absolute;
+        left: 123%;
+        top: 75%;
+    }
+   div#Entrar > div#email2 {
+      position: absolute;
+      left:  125%;
+      top: 30%;
+   }
+   div#Entrar > div#senha2 {
+    position: absolute;
+    left: 125%;
+    top: 44%;
+   }
+   div#Entrar > #jordan {
+    position: absolute;
+    left: 135%;
+    top: 5%;
+    display: block;
+   }
+   body, html {
+    background-image: linear-gradient(80deg, #f1bb9c, #D94F30, #D93E30);
+    background-size: 200vh;
+}
+div#box1 >#box {
+    position: absolute;
+    top: 60%;
+    left: 104%;
+   
+
+}
+div#box1 > #lembre{
+    position: absolute;
+    left: 109%;
+    top: 302px;
+    font-size: 9px;
+} 
+div#link2 > #link {
+    position: absolute;
+    left: 160%;
+    top: 61%;
+    width: 28%;
+    font-size: 9px;
+}
+}
+
+@media screen and (min-width:992px) {
+       section#section{
+        width: 55vw;
+       }
+
+      section#section > div#image {
+        background: url(../jorda5.webp);
+        position: absolute;
+        top: -59px;
+        left: -120px;
+        width: 70%;
+        height: 200%;
+      } 
+      div#Entrar > #jordan {
+        position: absolute;
+        left: 128%;
+        top: 10%;
+      }
+      div#Entrar > div#email2 {
+        position: absolute;
+        left: 120%;
+        top:  25%;
+      }
+      div#Entrar > div#senha2 {
+        position: absolute;
+        left: 120%;
+        top: 34%;
+      }
+    div#button2 > #button {
+        position: absolute;
+        left: 115%;
+        top: 45%;
+        width: 200px;
+        height: 25px;
+        border-style:inherit;
+        border-radius: 80px  ;
+    }
+    body, html {
+        background-image: linear-gradient(80deg, #ff8e48, #D94F30, #D93E30);
+        background-size: 300vh;
+    }
+    div#nikebs > #nikesb {
+        position: absolute;
+        top: 2%;
+        left: 48%;
+        width: 5%; 
+        display: block;
+       
+    }
+    div#box1 >#box {
+       position: absolute;
+       left: 102%;
+       top: 40%;
+       
+    
+    }
+    div#box1 > #lembre{
+       position: absolute;
+       left: 107%;
+       top: 402px;
+       font-size: 11px;
+    } 
+    div#link2 > #link {
+        position: absolute;
+        left: 148%;
+        top: 40%;
+        font-size: 9px;
+        width: 100px;
+    }
+}
